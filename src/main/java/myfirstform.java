@@ -107,14 +107,6 @@ public class myfirstform extends javax.swing.JFrame {
     }// </editor-fold>//GEN-END:initComponents
 
     private void jToggleButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jToggleButton1ActionPerformed
-try{
-   Class.forName("com.mysql.jdbc.Driver");
-   Connection con=DriverManager.getConnection("jdbc:mysql://localhost:3306/mydb?useSSL="false","root,"mysql0123");
-   String username= edtUsername.getText();
-   String password= edtPassword.
-}catch(Exception e){
-    System.out.println(e.getMessage());
-}
 
         // TODO add your handling code here:
     }//GEN-LAST:event_jToggleButton1ActionPerformed
